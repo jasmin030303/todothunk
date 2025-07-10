@@ -1,0 +1,21 @@
+#header {
+  padding: 30px;
+  background: blue;
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 800px;
+    color: white;
+    &--nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      color: blue;
+      a {
+        color: white;
+      }
+    }
+  }
+}
